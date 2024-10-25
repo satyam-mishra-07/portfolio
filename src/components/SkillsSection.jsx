@@ -33,7 +33,7 @@ const SkillsSection = () => {
       </div>
       <div className="content">
         <div className="content-text">
-          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pl-24">
             {skills.map((skill, index) => (
               <li
                 key={index}
@@ -49,7 +49,7 @@ const SkillsSection = () => {
             href="https://leetcode.com/u/satyammishrakumar39/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-emerald-400 hover:text-emerald-500 transform hover:scale-110 transition-transform"
+            className="text-emerald-400 mx-5 hover:text-emerald-500 transform hover:scale-110 transition-transform"
           >
             <FaLaptopCode size={28} />
           </a>
