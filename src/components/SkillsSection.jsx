@@ -33,7 +33,7 @@ const SkillsSection = () => {
       </div>
       <div className="content">
         <div className="content-text">
-          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pl-24">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {skills.map((skill, index) => (
               <li
                 key={index}
