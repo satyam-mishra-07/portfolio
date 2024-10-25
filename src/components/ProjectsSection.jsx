@@ -2,17 +2,7 @@ import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
 
 const ProjectsSection = () => {
-  useEffect(() => {
-    gsap.from('.project-card', {
-      opacity: 0,
-      y: 20,
-      duration: 1,
-      stagger: 0.3,
-      onComplete: () => {
-        gsap.to('.project-card', { opacity: 1 });
-      },
-    });
-  }, []);
+
 
   const projects = [
     {

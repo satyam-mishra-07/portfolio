@@ -3,26 +3,7 @@ import { gsap } from "gsap";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const HeroSection = () => {
-  useEffect(() => {
-    gsap.from(".hero-text", {
-      opacity: 0,
-      y: 20,
-      duration: 1,
-      stagger: 0.2,
-      onComplete: () => {
-        gsap.to(".hero-text", { opacity: 1 });
-      },
-    });
-    gsap.from(".hero-button", {
-      opacity: 0,
-      y: 50,
-      duration: 1,
-      delay: 0.5,
-      onComplete: () => {
-        gsap.to(".hero-button", { opacity: 1 });
-      },
-    });
-  }, []);
+
 
   return (
     <section className="flex h-screen flex-col md:flex-row justify-center items-center hero-section bg-gray-800 px-4">

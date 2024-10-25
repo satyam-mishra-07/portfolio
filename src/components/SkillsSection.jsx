@@ -3,17 +3,7 @@ import { gsap } from "gsap";
 import { FaCode, FaLaptopCode } from "react-icons/fa";
 
 const SkillsSection = () => {
-  useEffect(() => {
-    gsap.from(".skill-item", {
-      opacity: 0,
-      x: -50,
-      duration: 1,
-      stagger: 0.3,
-      onComplete: () => {
-        gsap.to(".skill-item", { opacity: 1 });
-      },
-    });
-  }, []);
+
 
   const skills = [
     "JavaScript (ES6+)",
