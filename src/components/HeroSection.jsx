@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import { gsap } from "gsap";
+import React from "react";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const HeroSection = () => {
@@ -25,7 +24,7 @@ const HeroSection = () => {
           Jalpaiguri Government Engineering College, West Bengal
         </p>
 
-        <div className="links flex flex-col mt-10">
+        <div className="links flex flex-col mt-5">
           <div className="flex flex-row justify-center gap-3">
             <a
               href="https://www.linkedin.com/in/satyam-mishra-53617518a/"
@@ -55,7 +54,7 @@ const HeroSection = () => {
             href="https://drive.google.com/file/d/1PkHgp0fkt9PKKU3EtPPDL4nBi9lN4eQm/view"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-emerald-600 text-white px-6 py-2 rounded-full inline-block hero-button hover:bg-emerald-700"
+            className="bg-emerald-600 text-white mt-5 px-6 py-3 rounded-full inline-block hero-button hover:bg-emerald-700"
           >
             Download Resume
           </a>
